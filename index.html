@@ -215,7 +215,7 @@ footer{padding-block:36px 48px;border-top:1px solid var(--line);display:flex;gap
         <h1 data-i="h_h1">La hora de cada cliente, siempre a la vista.</h1>
         <p class="lead" data-i="h_sub">DeskClock pone en tu escritorio de Windows un reloj flotante por cada ciudad donde tienes clientes. Sin cuentas, sin pestañas abiertas y sin calcular husos horarios de cabeza.</p>
         <div class="cta">
-          <a class="btn pri" href="#descargar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg><span data-i="cta_win">Descargar para Windows</span></a>
+          <a class="btn pri" href="https://apps.microsoft.com/detail/9N4GC8Q3VLM4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg><span data-i="cta_win">Descargar en Microsoft Store</span></a>
           <a class="btn sec" href="#funciones" data-i="cta_see">Ver cómo funciona</a>
         </div>
         <ul class="facts">
@@ -258,16 +258,14 @@ footer{padding-block:36px 48px;border-top:1px solid var(--line);display:flex;gap
       <div class="dl">
         <div class="l">
           <span class="eyebrow" style="color:var(--accent)" data-i="dl_eye">Descarga</span>
-          <h2 id="t-dl" data-i="dl_h">Descarga DeskClock para Windows</h2>
-          <p data-i="dl_p">Se abre la página de descargas en GitHub. Elige el archivo DeskClock-Setup: es el instalador y después se actualiza solo.</p>
+          <h2 id="t-dl" data-i="dl_h">Consigue DeskClock en Microsoft Store</h2>
+          <p data-i="dl_p">DeskClock se instala desde Microsoft Store, con actualizaciones automáticas y sin advertencias de seguridad.</p>
           <div class="cta">
-            <a class="btn pri" id="dl-main" href="https://github.com/disse1611/Deskclock/releases/latest/download/DeskClock-Setup.exe" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg><span data-i="cta_win">Descargar para Windows</span></a>
+            <a class="btn pri" id="dl-main" href="https://apps.microsoft.com/detail/9N4GC8Q3VLM4" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v12M7 11l5 5 5-5M5 20h14"/></svg><span data-i="cta_win">Descargar en Microsoft Store</span></a>
           </div>
-          <p class="warn" data-i="dl_warn">La primera vez, Windows puede mostrar «Windows protegió su PC» porque la app aún no tiene firma digital. Pulsa «Más información» y luego «Ejecutar de todas formas».</p>
         </div>
         <ul class="req">
           <li><b data-i="r1t">Sistema</b><span data-i="r1">Windows 10 u 11</span></li>
-          <li><b data-i="r2t">Versión portable</b><span data-i="r2">También hay un archivo DeskClock-Portable que no necesita instalación y no se actualiza solo.</span></li>
           <li><b data-i="r3t">Privacidad</b><span data-i="r3">Sin cuenta ni registro. Tus relojes se guardan en tu PC.</span></li>
         </ul>
       </div>
@@ -281,7 +279,6 @@ footer{padding-block:36px 48px;border-top:1px solid var(--line);display:flex;gap
 
   <footer>
     <span data-i="ft_l">DeskClock · Hecho para trabajar con clientes de todo el mundo</span>
-    <a href="https://github.com/disse1611/Deskclock/releases" target="_blank" rel="noopener" data-i="ft_r">Todas las versiones</a>
   </footer>
 </div>
 
@@ -289,7 +286,7 @@ footer{padding-block:36px 48px;border-top:1px solid var(--line);display:flex;gap
 /* ---------- Textos (ES / EN) ---------- */
 const T={
 es:{
- nav_f:'Funciones',nav_p:'Para quién',nav_e:'Cómo empezar',nav_q:'Preguntas',cta_dl:'Descargar',cta_win:'Descargar para Windows',cta_see:'Ver cómo funciona',
+ nav_f:'Funciones',nav_p:'Para quién',nav_e:'Cómo empezar',nav_q:'Preguntas',cta_dl:'Descargar',cta_win:'Descargar en Microsoft Store',cta_see:'Ver cómo funciona',
  h_eye:'Para freelancers y equipos con clientes en todo el mundo',
  h_h1:'La hora de cada cliente, siempre a la vista.',
  h_sub:'DeskClock pone en tu escritorio de Windows un reloj flotante por cada ciudad donde tienes clientes. Sin cuentas, sin pestañas abiertas y sin calcular husos horarios de cabeza.',
@@ -309,16 +306,15 @@ es:{
  who:[['Si trabajas por tu cuenta',false,['Pon un reloj por cliente y deja de preguntar «¿qué hora es allá?».','Propón reuniones en horas que les sirvan a los dos, sin hacer cuentas.','Sabes quién está despierto antes de escribir.']],['Si tu empresa atiende a muchos clientes',true,['Soporte, ventas y cuentas ven la hora de cada cliente en su propio escritorio.','Un diseño distinto por reloj ayuda a reconocer a cada cliente de un vistazo.','Se instala en cada equipo con el mismo instalador y cada persona elige sus ciudades.']]],
  s_eye:'Cómo empezar',s_h:'Listo en tres pasos',
  steps:[['Descarga e instala','Ejecuta el instalador de Windows. Tarda unos segundos.'],['Elige tus ciudades','Tu ciudad principal y las de tus clientes. Busca por ciudad, estado o país.'],['Saca tus widgets','Clic derecho en un reloj, «Widget flotante», y colócalo donde quieras.']],
- dl_eye:'Descarga',dl_h:'Descarga DeskClock para Windows',
- dl_p:'Al pulsar el botón se descarga directamente el instalador de DeskClock. Después la app se actualiza sola.',
- dl_warn:'La primera vez, Windows puede mostrar «Windows protegió su PC» porque la app aún no tiene firma digital. Pulsa «Más información» y luego «Ejecutar de todas formas».',
- r1t:'Sistema',r1:'Windows 10 u 11',r2t:'Versión portable',r2:'También hay un archivo DeskClock-Portable que no necesita instalación y no se actualiza solo.',r3t:'Privacidad',r3:'Sin cuenta ni registro. Tus relojes se guardan en tu PC.',
+ dl_eye:'Descarga',dl_h:'Consigue DeskClock en Microsoft Store',
+ dl_p:'DeskClock se instala desde Microsoft Store, con actualizaciones automáticas y sin advertencias de seguridad.',
+ r1t:'Sistema',r1:'Windows 10 u 11',r3t:'Privacidad',r3:'Sin cuenta ni registro. Tus relojes se guardan en tu PC.',
  q_eye:'Preguntas',q_h:'Preguntas frecuentes',
- faq:[['¿Por qué Windows muestra «Windows protegió su PC»?','Porque la app todavía no tiene la firma digital de pago que Windows reconoce. Pulsa «Más información» y luego «Ejecutar de todas formas». El archivo se descarga de la página oficial de versiones en GitHub.'],['¿Necesito crear una cuenta?','No. Instalas, eliges tus ciudades y listo.'],['¿Qué datos recoge?','Ninguno. Tus relojes y ajustes se guardan en tu PC. Solo salen de él los comentarios que tú envías y la consulta de actualizaciones.'],['¿Funciona con el horario de verano?','Sí. Usa la base internacional de zonas horarias y aplica los cambios de cada país automáticamente.'],['¿Cómo se actualiza?','La versión instalada busca actualizaciones sola, las descarga en segundo plano y conserva tus relojes y ajustes. También puedes buscarlas en Ajustes.'],['¿Cómo la desinstalo?','Desde la configuración de Windows o con el botón «Desinstalar DeskClock» dentro de Ajustes. Se borran la app y todos sus datos.'],['¿Puedo enviar sugerencias?','Sí, con el botón «Leave a feedback» dentro de la app.'],['¿Hay versión para Mac o móvil?','Por ahora solo para Windows 10 y 11.']],
- ft_l:'DeskClock · Hecho para trabajar con clientes de todo el mundo',ft_r:'Todas las versiones'
+ faq:[['¿Necesito crear una cuenta?','No. Instalas, eliges tus ciudades y listo.'],['¿Qué datos recoge?','Ninguno. Tus relojes y ajustes se guardan en tu PC. Solo salen de él los comentarios que tú envías.'],['¿Funciona con el horario de verano?','Sí. Usa la base internacional de zonas horarias y aplica los cambios de cada país automáticamente.'],['¿Cómo se actualiza?','Microsoft Store la actualiza automáticamente y conserva tus relojes y ajustes.'],['¿Cómo la desinstalo?','Desde la configuración de Windows (Aplicaciones instaladas), o con clic derecho sobre DeskClock en el menú Inicio y «Desinstalar».'],['¿Puedo enviar sugerencias?','Sí, con el botón «Leave a feedback» dentro de la app.'],['¿Hay versión para Mac o móvil?','Por ahora solo para Windows 10 y 11.']],
+ ft_l:'DeskClock · Hecho para trabajar con clientes de todo el mundo'
 },
 en:{
- nav_f:'Features',nav_p:'Who it\'s for',nav_e:'Get started',nav_q:'FAQ',cta_dl:'Download',cta_win:'Download for Windows',cta_see:'See how it works',
+ nav_f:'Features',nav_p:'Who it\'s for',nav_e:'Get started',nav_q:'FAQ',cta_dl:'Download',cta_win:'Get it from Microsoft Store',cta_see:'See how it works',
  h_eye:'For freelancers and teams with clients around the world',
  h_h1:'Every client\'s time, always in view.',
  h_sub:'DeskClock puts one floating clock on your Windows desktop for every city where you have clients. No accounts, no open tabs and no time-zone math in your head.',
@@ -338,13 +334,12 @@ en:{
  who:[['If you work on your own',false,['Put one clock per client and stop asking "what time is it over there?".','Propose meetings at times that suit both sides, with no math.','Know who is awake before you write.']],['If your company serves many clients',true,['Support, sales and accounts see each client\'s time on their own desktop.','A different design per clock helps tell clients apart at a glance.','Install it on every computer with the same installer; each person picks their own cities.']]],
  s_eye:'Get started',s_h:'Ready in three steps',
  steps:[['Download and install','Run the Windows installer. It takes a few seconds.'],['Pick your cities','Your main city and your clients\'. Search by city, state or country.'],['Pull out your widgets','Right-click a clock, choose "Floating widget" and place it wherever you like.']],
- dl_eye:'Download',dl_h:'Download DeskClock for Windows',
- dl_p:'Click the button and the DeskClock installer downloads directly. Afterwards the app updates itself.',
- dl_warn:'The first time, Windows may show "Windows protected your PC" because the app does not have a digital signature yet. Click "More info" and then "Run anyway".',
- r1t:'System',r1:'Windows 10 or 11',r2t:'Portable version',r2:'There is also a DeskClock-Portable file that needs no installation and does not update itself.',r3t:'Privacy',r3:'No account or sign-up. Your clocks are saved on your PC.',
+ dl_eye:'Download',dl_h:'Get DeskClock from the Microsoft Store',
+ dl_p:'DeskClock installs from the Microsoft Store, with automatic updates and no security warnings.',
+ r1t:'System',r1:'Windows 10 or 11',r3t:'Privacy',r3:'No account or sign-up. Your clocks are saved on your PC.',
  q_eye:'FAQ',q_h:'Frequently asked questions',
- faq:[['Why does Windows show "Windows protected your PC"?','Because the app does not yet have the paid digital signature Windows recognizes. Click "More info" and then "Run anyway". The file comes from the official releases page on GitHub.'],['Do I need an account?','No. Install it, pick your cities and you are done.'],['What data does it collect?','None. Your clocks and settings stay on your PC. Only the feedback you send and the update check leave it.'],['Does it handle daylight saving time?','Yes. It uses the international time-zone database and applies each country\'s changes automatically.'],['How does it update?','The installed version checks for updates by itself, downloads them in the background and keeps your clocks and settings. You can also check in Settings.'],['How do I uninstall it?','From Windows settings or with the "Uninstall DeskClock" button inside Settings. The app and all its data are removed.'],['Can I send suggestions?','Yes, with the "Leave a feedback" button inside the app.'],['Is there a Mac or mobile version?','For now, only Windows 10 and 11.']],
- ft_l:'DeskClock · Made for working with clients around the world',ft_r:'All versions'
+ faq:[['Do I need an account?','No. Install it, pick your cities and you are done.'],['What data does it collect?','None. Your clocks and settings stay on your PC. Only the feedback you send leaves it.'],['Does it handle daylight saving time?','Yes. It uses the international time-zone database and applies each country\'s changes automatically.'],['How does it update?','The Microsoft Store updates it automatically and keeps your clocks and settings.'],['How do I uninstall it?','From Windows settings (Installed apps), or by right-clicking DeskClock in the Start menu and choosing "Uninstall".'],['Can I send suggestions?','Yes, with the "Leave a feedback" button inside the app.'],['Is there a Mac or mobile version?','For now, only Windows 10 and 11.']],
+ ft_l:'DeskClock · Made for working with clients around the world'
 }};
 const hm=m=>{const h=Math.floor(m/60),r=m%60;return h&&r?`${h} h ${r} min`:h?`${h} h`:`${r} min`};
 
